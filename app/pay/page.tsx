@@ -1643,7 +1643,7 @@ export default function PayPage() {
       // Process the valid QR code
       processValidQrCode(text, validationResult)
     } else {
-      // Invalid QR code
+      // Invalid QR code test edit
       toast({
         title: "Invalid QR Code",
         description: "The scanned QR code is not a valid LAOQR or LAPNET code.",
